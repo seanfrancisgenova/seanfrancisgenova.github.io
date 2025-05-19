@@ -6,42 +6,89 @@
     <title>Genova Resume</title>
 </head>
 <style>
-    h1, h3{
-        text-align:center;
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .textbox {
+        display:flex;
+        flex-direction:column;
+    }
+    .header img {
+        width: 150px;
+        height: auto;
+    }
+    p.bold {
+        font-weight:bold;
+    }
+    p.indent{
+        text-indent: 50px;
+        margin: 0;
+    }
+    body {
+        margin: 50px; 
+        font-family:Arial, Helvetica, sans-serif
     }
 </style>
 <body>
     <div class="header">
-        <h1>
-            SEAN FRANCIS SB. GENOVA
-        </h1>
+        <img src="resume.pic.png" alt="Profile Photo" width="150">
+            <div class="textbox">
+                <h1>
+                    SEAN FRANCIS SB. GENOVA
+                </h1>
+                <h4>
+                    Bachelor of Science in Information Technology with <br> Specialization in Animation and Game Development
+                </h4>
+            </div>
+    </div>
+
         <h3>
-            Game Developer
+            Personal Information
         </h3>
-    </div>
-    <div class="unordered">
-        <h4>My Favorites</h4>
-        <ol>
-            <li> Pokemon
-                <ul>
-                    <li>Chandelure</li>
-                    <li>Gengar</li>
-                    <li>Tinkaton</li>
-                    <li>Mudkip</li>
-                    <li>Pumpkaboo</li>
-                </ul>
-            </li>
-            <br>
-            <li> Cookie Run Characters
-                <ul>
-                    <li>Hollyberry Cookie</li>
-                    <li>Sorbet Shark Cookie</li>
-                    <li>Cherry Cookie</li>
-                    <li>Golden Cheese Cookie</li>
-                    <li>Creme Brulee Cookie</li>
-                </ul>
-            </li>
-        </ol>
-    </div>
+            <ul>
+                <li>
+                    Email: seangenova2003@gmail.com
+                </li>
+                <li>
+                    Contact Number: +63 907 572 2560
+                </li>
+                <li>
+                    Address: E24B Gueventville II, Calbayog Ext. Brgy. Mauway, Mandaluyong 1550
+                </li>
+            </ul>
+
+        <h3>
+            Education
+        </h3>
+            <p class="bold">
+                BS in Information Technology with <br>Specialization in Animation and Game Development (AGD)
+            </p>
+            <div>
+                <p class="indent">FEU Institute of Technology</p>
+                <p class="indent"> P. Paredes St., Sampaloc, Manila </p>
+                <p class="indent">Expected Graduation - 2028</p>
+            </div>
+        <h3>
+            Key Skills/Proficiency
+        </h3>
+        <div>
+            <p class="indent" style="font-weight:bold">Technical Skills</p>
+            <p class="indent">Programming Languages | HTML, CSS, C++, C#</p>
+            <p class="indent">Game Engines | Unity, Godot</p>
+            <p class="indent">3D Modeling</p>
+            <p class="indent">3D Animation</p>
+        </div>
+        <br>
+        <div>
+            <p class="indent" style="font-weight:bold">Soft Skills</p>
+            <p class="indent">Teamwork</p>
+            <p class="indent">Creativity</p>
+            <p class="indent">Problem Solving</p>
+            <p class="indent">Collaboration</p>
+        </div>
+        <h3> References </h3>
+        <p>Available upon request</p>
 </body>
 </html>
