@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Genova_TSA1_Table</title>
+    <link rel="stylesheet" href="tablestyle.css">
 </head>
-<style>
-    table, th, td {
-    border: 1px solid black;
-    }
-</style>
+
 <body>
     <table>
-        <tr >
+        <tr class="title">
             <th colspan="6">INVENTORY SYSTEMS</th>
         </tr>
-        <tr>
+        <tr class="heads">
             <td>ID</td>
             <td>Name</td>
             <td>Quantity</td>
@@ -27,24 +24,26 @@
             <td>10001</td>
             <td>Boy Bawang Adobo (pc)</td>
             <td>1000</td>
-            <td rowspan="8">KSK</td>
+            <td rowspan="8" class="supplier">KSK</td>
             <td rowspan="2">5/14/2019</td>
+            <td rowspan="8"><img src="boybawang.png" alt="Boy Bawang pack" width="150"></td>
+            
         </tr>
         <tr>
             <td>10002</td>
             <td>Boy Bawang Adobo (pack)</td>
             <td>200</td>
         </tr>
-        <tr>
+        <tr class="otherrows">
             <td>10003</td>
             <td>Boy Bawang Garlic (pc)</td>
             <td>3000</td>
             <td rowspan="2">5/15/2019</td>
         </tr>
-        <tr>
+        <tr class="otherrows">
             <td>10004</td>
             <td>Boy Bawang Garlic (pack)</td>
-            <td>150</td>
+            <td class="lowsupply">150</td>
         </tr>
         <tr>
             <td>10005</td>
@@ -57,18 +56,18 @@
             <td>Boy Bawang Spicy (pack)</td>
             <td>240</td>
         </tr>
-        <tr>
+        <tr class="otherrows">
             <td>10007</td>
             <td>Boy Bawang BBQ (pc)</td>
             <td>3000</td>
             <td rowspan="2">5/17/2019</td>
         </tr>
-        <tr>
+        <tr class="otherrows">
             <td>10008</td>
             <td>Boy Bawang BBQ (pack)</td>
             <td>210</td>
         </tr>
-
+        
     </table>
 </body>
 </html>
