@@ -1,0 +1,27 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse:collapse;
+    font-family:  'Calibri', sans-serif;
+    }
+th, td {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align:center;
+}
+tr.title {
+    background: rgb(151, 178, 232);
+}
+tr.heads {
+    background: rgb(213, 213, 213);
+    font-weight: bold;
+}
+td.supplier {
+    background:rgb(248, 217, 97);
+    font-weight: bold;
+}
+tr.otherrows {
+    background: rgb(213, 213, 213);
+}
+td.lowsupply {
+    color:red;
+}
