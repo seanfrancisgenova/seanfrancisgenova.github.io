@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="external_registratio">
     <title>Document</title>
 </head>
 <body>
-    
+    <div>
+        <form name="Registration Form">
+            <label for="firstname"> First Name:* </label> <br>
+            <input type="text" id="firstname" required> <br>
+
+            <label for="midname"> Middle Name:* </label> <br>
+            <input type="text" id="midname" required> <br>
+
+            <label for="surname"> Surname:* </label> <br>
+            <input type="text" id="surname" required> <br>
+
+            <label for="suffix"> Suffix:</label>
+            <select name="suffix" id="suffix">
+                <option value="jr">Jr.</option>
+                <option value="sr">Sr.</option>
+                <option value="III">III</option>
+            </select> <br>
+
+            <label for="email"> Email:* </label> <br>
+            <input type="text" id="email" required> <br>
+
+            <label for="contact"> Contact No.* </label> <br>
+            <input type="text" id="contact" required> <br>
+
+            <label for="gender"> Gender:</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="nosay">Prefer not to say</option>
+            </select>
+            <br>
+            
+            <label for="course"> Course:</label>
+            <select name="course" id="course">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+
+            <p>Required field*</p>      
+
+            <input type="submit" value="SUBMIT">
+        </form>
+    </div>
 </body>
 </html>
