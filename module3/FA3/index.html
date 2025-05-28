@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="external_registratio">
+    <link rel="stylesheet" href="external_registration.css">
     <title>Document</title>
 </head>
 <body>
@@ -20,19 +20,22 @@
 
             <label for="suffix"> Suffix:</label>
             <select name="suffix" id="suffix">
+                <option value="none">None</option>
                 <option value="jr">Jr.</option>
                 <option value="sr">Sr.</option>
                 <option value="III">III</option>
             </select> <br>
-
+            <label for="bday">Birthday:</label> <br>
+            <input type="date"> <br>
             <label for="email"> Email:* </label> <br>
             <input type="text" id="email" required> <br>
 
             <label for="contact"> Contact No.* </label> <br>
-            <input type="text" id="contact" required> <br>
+            <input type="tel" id="contact" placeholder="+63-123-456-7890" pattern="[+63]{}-[0-9]{3}-[0-9]{3}-[0-9]{4}" required> <br>
 
             <label for="gender"> Gender:</label>
             <select name="gender" id="gender">
+                <option value="gen">Select a Gender</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
                 <option value="nosay">Prefer not to say</option>
@@ -41,22 +44,24 @@
             
             <label for="course"> Course:</label>
             <select name="course" id="course">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="ccourse">Select a Course</option>
+                <option value="bscs">Bachelor of Science in Computer Science</option>
+                <option value="bsit">Bachelor of Science in Information Technology</option>
+                <option value="bma">Bachelor of Multimedia Arts</option>
+                <option value="bscsc">Bachelor of Science in Cybersecurity</option>
+                <option value="bsdmm">Bachelor in Digital Marketing and Management</option>
+                <option value="bsfte">Bachelor of Science in Financial Technology Engineering</option>
+                <option value="bsce">Bachelor of Science in Civil Engineering</option>
+                <option value="bscoe">Bachelor of Science in Computer Engineering</option>
+                <option value="bsee">Bachelor of Science in Electrical Engineering</option>
+                <option value="bsece">Bachelor of Science in Electronics Engineering</option>
+                <option value="bsme">Bachelor of Science in Mechanical Engineering</option>
             </select>
 
             <p>Required field*</p>      
 
             <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
         </form>
     </div>
 </body>
