@@ -1,3 +1,6 @@
+body {
+    font-family: system-ui, 'Open Sans', sans-serif;
+}
 input#firstname, input#midname, input#surname, input#email{
     width: 400px;
     height: 10px;
