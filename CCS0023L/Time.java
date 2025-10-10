@@ -73,8 +73,7 @@ public void nextSecond() {
             }
         }
     }
-
-    // Main method to test
+    
     public static void main(String[] args) {
         Time t1 = new Time(23, 59, 58);
         t1.print(); // 23:59:58
