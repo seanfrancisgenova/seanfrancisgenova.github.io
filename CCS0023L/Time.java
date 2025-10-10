@@ -1,5 +1,3 @@
-package CCS0023L;
-
 public class Time {
     private int hour = 0;
     private int minute = 0;
